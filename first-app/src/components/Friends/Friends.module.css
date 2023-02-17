@@ -1,0 +1,11 @@
+.friendsContainer{
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.headerText{
+  font-size: 22px;
+  margin: 10px 0;
+}

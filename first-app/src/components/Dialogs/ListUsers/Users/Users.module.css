@@ -1,0 +1,23 @@
+.userContainer{
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  text-align: left;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.photo{
+  width: 60px;
+  height: 100%;
+  background-color: orange;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.userName{
+  height: 60px;
+  display: flex;
+  align-items: center;
+}

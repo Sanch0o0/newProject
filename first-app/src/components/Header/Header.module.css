@@ -1,0 +1,65 @@
+.header{
+  padding: 0 15%;
+  height: 60px;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.headerLogo{
+  width: 200px;
+}
+
+.headerLogo img{
+  width: 60px;
+  height: auto;
+}
+
+.headerInput{
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(237, 237, 237);
+  padding-left: 10px;
+  font-size: 16px;
+  color: rgb(13, 13, 13);
+  margin-right: 150px;
+}
+
+input {outline:none;}
+
+.headerButtonsBox{
+  display: flex;
+  align-items: center;
+}
+
+.headerButton {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.headerButton img {
+  width: 100%;
+  height: auto;
+}
+
+.autoWidth{
+  width: max-content;
+}
+
+.headerSettingButton{
+  width: 40px;
+  height: 40px;
+}
+
+.headerSettingButton img{
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,21 @@
+.profileContainer{
+  width: 80%;
+  height: auto;
+  background-color: #fff;
+}
+
+.profileImgBig{
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileImgBig img{
+  width: 100%;
+  height: auto;
+}
