@@ -1,0 +1,79 @@
+.successBox {
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background: rgba(22, 44, 78, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .sendSuccess {
+    display: grid;
+
+    width: 320px;
+    height: 370px;
+    box-sizing: border-box;
+    padding: 100px 10px 70px;
+    text-align: center;
+
+    z-index: 3;
+    background: #FFFFFF;
+    position: relative;
+
+    .closeCross {
+      cursor: pointer;
+
+      position: absolute;
+      right: 0;
+      top: 5px;
+    }
+
+    .header {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 104%;
+      /* or 37px */
+
+      text-align: center;
+      text-transform: uppercase;
+
+      color: #162C4E;
+    }
+
+    .text {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      /* or 24px */
+
+      text-align: center;
+
+      color: rgba(0, 0, 0, 0.8);
+    }
+
+    .butt {
+      width: 200px;
+      height: 60px;
+      border: none;
+      margin: auto;
+      background: #1D4169;
+      border-radius: 40px;
+
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+      /* identical to box height, or 27px */
+
+      color: #FFFFFF;
+
+      cursor: pointer;
+    }
+  }
+}

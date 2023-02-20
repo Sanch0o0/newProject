@@ -1,0 +1,56 @@
+.under-desc {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+
+  color: rgba(0, 0, 0, 0.8);
+
+  margin-bottom: 10px;
+}
+
+.eventButton {
+  .go-butt {
+    cursor: pointer;
+
+    position: relative;
+
+    width: 240px;
+    height: 60px;
+
+    border: none;
+    background: #1D4169;
+    border-radius: 40px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+    color: #FFFFFF;
+    height: 60;
+    
+    &:hover>.arrow-right{
+      transition: 0.4 linear;
+      transform: translateX(2px);
+    }
+  }
+
+  .go-butt_text {
+    position: absolute;
+    left: 28px;
+    top: 16px;
+  }
+
+  .arrow-right {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 200px;
+    top: 20px;
+  }
+}
