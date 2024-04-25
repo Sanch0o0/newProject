@@ -1,0 +1,9 @@
+.messageBox{
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.avatar{
+  width: 30px;
+}

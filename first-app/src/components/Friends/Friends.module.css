@@ -9,3 +9,25 @@
   font-size: 22px;
   margin: 10px 0;
 }
+
+.pageButtons{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.selectedPage{
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.pageNumber{
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 5px;
+}

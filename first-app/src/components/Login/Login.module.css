@@ -1,0 +1,23 @@
+.loginContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.loginBox{
+  background-color: rgba(0, 0, 0, 0.115);
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginHeader{
+  font-size: 34px;
+  margin-top: 0;
+}

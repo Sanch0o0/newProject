@@ -1,5 +1,11 @@
 .dialogsContainer{
   width: 70%;
+
   text-align: left;
   border-left: 2px solid rgb(100, 100, 100);
+}
+
+.dialogBox{
+  max-height: 470px;
+  overflow-y: scroll;
 }
